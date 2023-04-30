@@ -19,7 +19,7 @@ const [notFound, setNotFound] = useState(false);
 
 //api de busqueda devuelve perros que no estan incluidos en la apiGeneral
 useEffect(() => {
-  axios.get(`http://localhost:3001/dogs/${dogId}`).then((response) => {
+  axios.get(`https://pidogsbackend-production.up.railway.app/dogs/${dogId}`).then((response) => {
     //si la respuesta es negativa y tambien el array de perros de la api de busqueda devuelve un mensaje de error
     if (response.data === "" && homeDogs.length === 0) {setNotFound(true);}
     //si hay respuesta de la api general significa que esta incluida en la llamada de api general

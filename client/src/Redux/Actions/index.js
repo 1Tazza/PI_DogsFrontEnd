@@ -12,7 +12,7 @@ export const START_BUTTON = "START_BUTTON";
 
 export const getDogApi = () => {
     return function(dispatch) {
-    return axios.get("http://localhost:3001/dogs")
+    return axios.get("https://pidogsbackend-production.up.railway.app/dogs")
     .then(e => e.data)
     .then(dogs => 
     dispatch({type: "GET_DOG_API", payload: dogs})
@@ -22,7 +22,7 @@ export const getDogApi = () => {
 
 export const getDogByRace = (name) => {
     return function(dispatch) {
-        return axios.get(`http://localhost:3001/dogs?name=${name}`)
+        return axios.get(`https://pidogsbackend-production.up.railway.app/dogs?name=${name}`)
         .then(e => e.data)
         .then(dog => 
         dispatch({type: "GET_DOG_BY_RACE", payload: dog})    
@@ -44,7 +44,7 @@ export const dogsFilter = (parameter) => {
 
 export const getTemperaments = () => {
     return function(dispatch) {
-        return axios.get("http://localhost:3001/temperaments")
+        return axios.get("https://pidogsbackend-production.up.railway.app/temperaments")
         .then(e => e.data)
         .then(temperaments => 
             dispatch({type: "GET_TEMPERAMENTS", payload: temperaments}))
@@ -61,7 +61,7 @@ export const setPage = (num) => {
 
 export const postDog = (dog) => {
     return function(dispatch) {
-        return axios.post("http://localhost:3001/dogs", dog)
+        return axios.post("https://pidogsbackend-production.up.railway.app/dogs", dog)
         .then(recurso => recurso.data)
         .then(obj => 
             dispatch({type:"POST_DOG", payload: obj}))
