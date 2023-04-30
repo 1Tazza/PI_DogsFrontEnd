@@ -1,0 +1,43 @@
+.width {width: 60% ; border: solid white 3px;box-shadow: 0 0 15px rgba(0, 0, 0, 0.671); border: none;}
+
+.background {background-image: url("https://static.vecteezy.com/system/resources/previews/005/220/628/non_2x/seamless-pattern-with-cute-dogs-portraits-for-children-and-pets-illustration-vector.jpg");
+    filter:contrast(1.1);
+    min-height: 100vh;}
+
+.paddImg{padding-top: 10vh;}
+
+.padding{padding: 3.5% 0% 0% 12%}
+
+.home{
+    color: rgb(233, 255, 105);background-color: rgb(0, 0, 0); border-radius: 7px;
+padding: 13px 14px; cursor: pointer;}
+
+.card {width: 67%; background-color: white; text-align: center; margin: 2% 4%; background-image: url("https://previews.123rf.com/images/annagolant/annagolant1702/annagolant170200160/71181101-antecedentes-con-peque%C3%B1as-part%C3%ADculas-granos-como-chispas-de-chocolate-pasteler%C3%ADa-o-golosina-fondo.jpg");
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.671);
+display: flex;
+}
+
+.divImg{display: flex;
+    justify-content: center;
+    width: 60%;
+    /* width: 25vh; */
+    align-items: center;
+    /* align-content: center; */
+    /* width: auto; */
+    margin: 7vh 1vh 7vh 1vh;
+    flex-direction: column;
+    padding-right: 0px;}
+
+.divDes{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    padding: 3vh 3vh 4vh 0vh;
+    justify-content: center;
+}
+
+.titulo{font-size: 2em;}
+
+.center{width: 100%; display: flex; justify-content: center;}
+
+.letter {font-size:120%;}

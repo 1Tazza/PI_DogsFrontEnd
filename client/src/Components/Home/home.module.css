@@ -1,0 +1,53 @@
+
+
+.background {background-image: url("https://static.vecteezy.com/system/resources/previews/005/220/628/non_2x/seamless-pattern-with-cute-dogs-portraits-for-children-and-pets-illustration-vector.jpg");
+    filter:contrast(1.1);
+    min-height: 100vh;}
+
+.row {display: flex; flex-direction: row; flex-wrap: wrap;}
+
+.justcenter{display: flex; align-items: center;}
+.column {display: flex; flex-direction: column;}
+.center{display: flex;justify-content: center; margin: 0%;}
+.container{display: flex;justify-content: center;}
+
+.nav{display: flex;flex-direction: column; width: 100%; align-items: center;}
+
+.margin{margin-right: 1vw;}
+
+.select{border: none;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/148/326/557/textures-backgrounds-wood-texture-1024x1024-abstract-textures-hd-art-wallpaper-preview.jpg") ;
+   background-position: right;
+    color: white;
+padding: 13px 14px; cursor: pointer;
+font-family: 'Instrument Serif', serif;
+
+font-size: 105%;
+border-bottom: 3px solid black;
+    border-radius: 0px 4px 4px 0px;
+    border-left: 3px solid black;
+    overflow: hidden;}
+
+.selectOrder{border: none;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/148/326/557/textures-backgrounds-wood-texture-1024x1024-abstract-textures-hd-art-wallpaper-preview.jpg") ;
+background-position: right;
+    color: white;
+padding: 13px 14px; cursor: pointer;
+font-family: 'Instrument Serif', serif;
+border-bottom: 3px solid black;
+    border-radius: 0px 4px 4px 0px;
+    border-left: 3px solid black;
+    overflow: hidden;
+font-size: 105%;}
+
+.buttonPadd{ padding-bottom: 3vh;}
+
+
+select.selectHome option {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 105%;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+  }

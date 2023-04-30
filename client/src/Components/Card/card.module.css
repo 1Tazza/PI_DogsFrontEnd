@@ -1,0 +1,14 @@
+.img {width: 15vw; height: 10vw; border-radius: 5px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.605); }
+
+/* .card {border: 2px solid rgb(255, 255, 255); width: 25%; border-radius: 20px;background-color: rgba(0, 0, 0, 0.519); color: antiquewhite; text-align: center; margin: 2% 1.2%} */
+.card { width: 20%; background-color: white; text-align: center; margin: 2% 4%; background-image: url("https://previews.123rf.com/images/annagolant/annagolant1702/annagolant170200160/71181101-antecedentes-con-peque%C3%B1as-part%C3%ADculas-granos-como-chispas-de-chocolate-pasteler%C3%ADa-o-golosina-fondo.jpg");
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.671); }
+
+.link {
+    text-decoration: none; /* quita el subrayado */
+    color: rgb(0, 0, 0); /* establece el color predeterminado */
+  }
+
+.padding{padding: 4%;}
+
+.margin{margin-left: 5%; margin-right: 5%;}

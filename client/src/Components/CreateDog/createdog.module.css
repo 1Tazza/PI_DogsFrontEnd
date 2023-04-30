@@ -1,0 +1,72 @@
+.card {border: 2px solid black; width: 50%; border-radius: 20px;background-color: rgba(0, 0, 0, 0.519); color: antiquewhite;  padding: 1% 2% 0.5% 2%;}
+
+.home{
+    color: rgb(233, 255, 105);background-color: rgb(0, 0, 0); border-radius: 7px;
+padding: 13px 14px; cursor: pointer;}
+
+.center{display: flex; justify-content: center; }
+
+.leftMarg{margin-left: 10vw;}
+
+.button{margin-right: 10vw; display: flex;justify-content: center;}
+
+.colorstyle{border: none;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/148/326/557/textures-backgrounds-wood-texture-1024x1024-abstract-textures-hd-art-wallpaper-preview.jpg") ;
+background-position: right;
+    color: white;
+padding: 13px 14px; cursor: pointer;
+font-family: 'Instrument Serif', serif;
+border-bottom: 3px solid black;
+    border-radius: 0px 4px 4px 0px;
+    border-left: 3px solid black;
+    overflow: hidden;
+font-size: 115%;}
+
+button.disabled:disabled {
+    background-color: gray;
+    color: white;
+    cursor: not-allowed;
+    opacity: 0.7;
+  }
+
+.div{padding: 1% 0%;}
+
+.left{margin-left: 14%;}
+
+.input input {background-color: rgba(253, 253, 253, 0.947); border-radius: 7px; color: black; border-color: rgb(255, 163, 50); padding: 10px; }
+
+.select{border: none;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/148/326/557/textures-backgrounds-wood-texture-1024x1024-abstract-textures-hd-art-wallpaper-preview.jpg") ;
+background-position: right;
+    color: white;
+padding: 13px 14px; cursor: pointer;
+font-family: 'Instrument Serif', serif;
+border-bottom: 3px solid black;
+    border-radius: 0px 4px 4px 0px;
+    border-left: 3px solid black;
+    overflow: hidden;
+font-size: 105%;}
+
+.create{border: solid;border-width: 2px;border-color:rgb(105, 255, 255);
+    color: rgb(105, 255, 255);background-color: rgba(0, 0, 0, 0.533); border-radius: 7px;
+padding: 10px 7px; cursor: pointer; width: 11%;}
+
+
+.background{background-image: url("https://static.vecteezy.com/system/resources/previews/005/220/628/non_2x/seamless-pattern-with-cute-dogs-portraits-for-children-and-pets-illustration-vector.jpg");
+    filter:contrast(1.1);
+    min-height: 100vh;}
+
+    .padding{padding: 3.5% 0% 0% 12%}
+
+    select.selectCreate option {
+        background-color: #ffffff;
+        color: #000000;
+        font-size: 105%;
+        font-weight: bold;
+        padding: 10px;
+        border: none;
+      }
+
+      .paddingBottom{
+        padding-bottom: 6vh;
+      }

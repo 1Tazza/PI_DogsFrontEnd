@@ -1,0 +1,13 @@
+body {font-family: 'Play', sans-serif; }
+
+.background{background-image: url("https://wallup.net/wp-content/uploads/2018/10/07/11696-black-dogs-labrador-retriever-black-background.jpg"); width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;}
+
+.center{text-align: center;}
+
+.title{font-size: 9vw; color: rgba(255, 255, 255, 0.828); -webkit-text-stroke: 2.5px rgb(0, 0, 0); margin: 0%; padding: 10% 0% 8% 0%;}
+
+.button{border-radius: 45px; border-color: rgb(1, 133, 249);color: rgb(255, 225, 0); background-color: rgba(0, 0, 0, 0.329); font-size: 1vw; cursor: pointer;} 

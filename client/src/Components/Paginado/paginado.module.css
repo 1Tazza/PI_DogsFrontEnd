@@ -1,0 +1,26 @@
+
+.button{border: none;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/148/326/557/textures-backgrounds-wood-texture-1024x1024-abstract-textures-hd-art-wallpaper-preview.jpg") ;
+ background-position: center;
+    color: white;
+padding: 13px 14px; cursor: pointer;
+font-family: 'Instrument Serif', serif;
+
+font-size: 125%;
+}
+
+.border{
+    border-bottom: 3px solid black;
+    border-radius: 0px 4px 4px 0px;
+    border-left: 3px solid black;
+    overflow: hidden;
+    }
+
+/* .num{width: 1.5vw; height: 2.5vw;}
+
+.prevNext {width: 3vw;}*/
+
+.active{background-color: rgb(255, 161, 68); color: black; font-weight: bolder;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #f00, 0 0 70px #f00, 0 0 80px #f00, 0 0 100px #f00, 0 0 150px #f00;} 
+
+.center{display: flex; justify-content: center;}
