@@ -6,7 +6,7 @@ export default function Loading() {
 
     return(<div className={c.background}>
 
-     <img src={logo} />
+     <img src={logo} alt="logo" />
 
    
     </div>)

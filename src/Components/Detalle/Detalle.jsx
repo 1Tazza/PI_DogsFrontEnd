@@ -27,7 +27,7 @@ useEffect(() => {
     //si no encuentra el perro con el id en la llamada de api original la busca en el array de la api de busqueda que se guarda en fildogs cuando hacemos una busqueda
     else {setDog(homeDogs[0])}
   })
-}, [props.match.params]);
+}, [props.match.params, dogId, homeDogs]);
 
 if (!dog && notFound === false) {
   return(

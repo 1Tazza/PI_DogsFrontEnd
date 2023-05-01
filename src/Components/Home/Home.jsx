@@ -40,7 +40,7 @@ const [state, setState] = useState({
  useEffect(() => {
    dispatch(actions.getTemperaments());
    dispatch(actions.getDogApi()).then(() => {
-     setState({...state, isLoading: false });
+      setState(prevState => ({...prevState, isLoading: false }));
    });
  }, [dispatch]);
 
