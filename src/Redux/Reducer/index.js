@@ -65,17 +65,16 @@ export default function rootReducer(state = initialState, action) {
       
       else if(state.filDogs.length > 0 && state.filTemperaments.length > 0) {
         const filDogs = state.filDogs.filter(function(el) {
-          var result = el.temperament?.includes(action.payload) || []
-          if(result === true) {return el}
-        })
+          return el.temperament?.includes(action.payload) || false;
+        });
   
         return {...state, filInside: filDogs, currentPage: 1}
       }
 
-      else {const filDogs = state.dogs.filter(function(el) {
-        var result = el.temperament?.includes(action.payload) || []
-        if(result === true) {return el}
-      })
+      else {
+        const filDogs = state.dogs.filter(function(el) {
+          return el.temperament?.includes(action.payload) || false;
+        });
 
       return {...state, filDogs: filDogs, currentPage: 1}}
     }

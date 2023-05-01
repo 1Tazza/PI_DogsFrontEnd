@@ -3,7 +3,6 @@ import Home from "./Components/Home/Home"
 import Detalle from "./Components/Detalle/Detalle"
 import Landing  from "./Components/Landing/Landing";
 import CreateDog from "./Components/CreateDog/CreateDog";
-import Nav from "./Components/Nav/Nav";
 import c from "./App.module.css"
 
 function  App() {
