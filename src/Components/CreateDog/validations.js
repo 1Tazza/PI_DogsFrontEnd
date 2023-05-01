@@ -100,23 +100,26 @@ else if(!input.weightMax && !input.weightMin) {errors.weight = "Weight is requir
 
 
 
-if(!input.lifeMin) {errors = errors}
-
-else if(input.lifeMin.match("^[0-9]+$")) {
-    if (Number(input.lifeMin) < 1) {
-        errors.lifeMin = "Life expectancy cannot be less than 1 year";
+if(input.lifeMin) {
+    if(input.lifeMin.match("^[0-9]+$")) {
+      if (Number(input.lifeMin) < 1) {
+          errors.lifeMin = "Life expectancy cannot be less than 1 year";
       }
-}
-else {errors.life = "Number must not contain Letters or Special characters"}
+    }
+    else {
+      errors.life = "Number must not contain Letters or Special characters";
+    }
+  }
 
-if(!input.lifeMax) {errors = errors}
+if(input.lifeMax) {
 
-else if(input.lifeMax.match("^[0-9]+$")) {
+if(input.lifeMax.match("^[0-9]+$")) {
     if (Number(input.lifeMax) > 20) {
         errors.lifeMax = "Life expectancy cannot be more than 20 years";
       }
 }
 else {errors.life = "Number must not contain Letters or Special characters"}
+}
 
 if(input.lifeMin && input.lifeMax){
    if(Number(input.lifeMin) > Number(input.lifeMax)) {
