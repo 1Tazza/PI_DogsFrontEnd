@@ -10,4 +10,15 @@ body {font-family: 'Play', sans-serif; }
 
 .title{font-size: 9vw; color: rgba(255, 255, 255, 0.828); -webkit-text-stroke: 2.5px rgb(0, 0, 0); margin: 0%; padding: 10% 0% 8% 0%;}
 
-.button{border-radius: 45px; border-color: rgb(1, 133, 249);color: rgb(255, 225, 0); background-color: rgba(0, 0, 0, 0.329); font-size: 1vw; cursor: pointer;} 
+.button{border: none;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/148/326/557/textures-backgrounds-wood-texture-1024x1024-abstract-textures-hd-art-wallpaper-preview.jpg") ;
+background-position: right;
+    color: white;
+padding: 13px 80px; cursor: pointer;
+font-family: 'Instrument Serif', serif;
+border-bottom: 3px solid black;
+    border-radius: 0px 4px 4px 0px;
+    border-left: 3px solid black;
+    overflow: hidden;
+font-size: 115%;cursor: pointer;
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #f00, 0 0 70px #f00, 0 0 80px #f00, 0 0 100px #f00, 0 0 150px #f00;} 

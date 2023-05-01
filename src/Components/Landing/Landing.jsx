@@ -10,7 +10,7 @@ return(<div className={c.background}>
 
     <Link to="/home">  
     <button className={c.button} type="button">
-    <h1>Comenzar!</h1>
+    <h1>Start!</h1>
     </button>
     </Link>
  </div>
